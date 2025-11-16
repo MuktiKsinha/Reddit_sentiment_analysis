@@ -61,7 +61,7 @@ y = df['category']
 
 # connect MLflow
 mlflow.set_tracking_uri("http://ec2-56-228-82-122.eu-north-1.compute.amazonaws.com:5000/")
-mlflow.set_experiment("RF Baseline")
+mlflow.set_experiment("RF baseline")
 
 # Train–test split
 X_train, X_test, y_train, y_test = train_test_split(
