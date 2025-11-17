@@ -60,7 +60,7 @@ X = vectorizer.fit_transform(df['clean_comment']).toarray()
 y = df['category']
 
 # connect MLflow
-mlflow.set_tracking_uri("http://ec2-56-228-82-122.eu-north-1.compute.amazonaws.com:5000/")
+mlflow.set_tracking_uri("http://ec2-51-21-245-249.eu-north-1.compute.amazonaws.com:5000/")
 mlflow.set_experiment("RF baseline")
 
 # Train–test split
